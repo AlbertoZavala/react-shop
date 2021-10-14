@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const App = () => {
+export const NotFound = () => {
   return (
     <div>
-      Hola Mundo sfasdf asfdadfa
+       NOT FOUND, ERROR 404
     </div>
   )
 }

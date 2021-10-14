@@ -30,12 +30,11 @@ module.exports = {
           ],
         },
         {
-            test: /\.css$/,
+            test: /\.(css|scss)$/,
             use:[
-                {
-                    loader: MiniCssExtractPlugin.loader,
-                },
-                'css-loader'
+              "style-loader",
+              "css-loader",
+              "sass-loader",
             ]
         }
       ],
@@ -45,12 +44,12 @@ module.exports = {
         template: "./public/index.html",
         filename: "./index.html",
       }),
-
       new MiniCssExtractPlugin({
-          filename: 'assests/[name].css',
+          filename: '[name].css',
       })
     ],
     devServer: {
+      historyApiFallback: true,
       static: path.join(__dirname, "dist"),
       compress: true,
       port: 3005,
