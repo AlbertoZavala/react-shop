@@ -1,6 +1,8 @@
 # react-shop
 React Shop
 
+This is just a test site builded with ReactJS just as an example
+
 ## Documentation
 
 API => https://api.escuelajs.co/docs/
