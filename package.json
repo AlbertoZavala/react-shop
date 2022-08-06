@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlbertoZavala/react-shop.git"
+    "url": "https://github.com/AlbertoZavala/react-shop.git"
   },
   "keywords": [
     "react",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/AlbertoZavala/react-shop/issues"
   },
-  "homepage": "https://github.com/AlbertoZavala/react-shop#readme",
+  "homepage": "https://github.com/AlbertoZavala/react-shop",
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.15.8",
     "axios": "^0.23.0",
