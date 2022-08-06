@@ -30,8 +30,8 @@ const App = () => {
 						<Route exact path="/account" component={MyAccount} />
 						<Route exact path="/signup" component={CreateAccount} />
 						<Route exact path="/checkout" component={Checkout} />
-						<Route exact path="/orders" component={Orders} />						
-						<Route component={Notfound} />
+						<Route exact path="/orders" component={Orders} />
+						<Route component={NotFound} />
 					</Switch>
 				</Layout>
 			</BrowserRouter>
