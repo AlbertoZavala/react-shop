@@ -1,14 +1,15 @@
 # react-shop
-Platzi React Shop
+React Shop
 
-NOTA: documentos iniciales.
-https://github.dev/platzi/curso-frontend-developer-practico
+## Documentation
 
-===================================================== Capítulo 18 ====================================================
-Docs de la API 👉 https://api.escuelajs.co/docs/
-API para desarrollo 👉 https://api.escuelajs.co/api/v1/
+API => https://api.escuelajs.co/docs/
 
-Aqui los comandos compañeritos:
+## How to run
 
--npm i axios
--npm install @babel/plugin-transform-runtime
+  1. Download from https://github.com/AlbertoZavala/react-shop
+  2. On terminal run
+
+      npm install
+      npm run start
+
