@@ -6,6 +6,8 @@ import '@styles/Header.scss'
 import menu from '@icons/icon_menu.svg'
 import logo from '@logos/logo_yard_sale.svg'
 import shoppingCart from '@icons/icon_shopping_cart.svg'
+import { NavLink } from 'react-router-dom'
+import Home from '../pages/Home'
 
 
 const Header = () => {
@@ -26,22 +28,46 @@ const Header = () => {
 
       <ul>
         <li>
-          <a href="/">All</a>
+          <NavLink
+            to={Home}
+            >
+            All
+          </NavLink>          
         </li>
         <li>
-          <a href="/">Clothes</a>
+          <NavLink
+            to={Home}
+            >            
+            Clothes
+          </NavLink>          
         </li>
         <li>
-          <a href="/">Electronics</a>
+        <NavLink
+            to={Home}
+            >            
+            Electronics
+          </NavLink>                    
         </li>
         <li>
-          <a href="/">Furnitures</a>
+        <NavLink
+            to={Home}
+            >            
+            Furnitures
+          </NavLink>                    
         </li>
         <li>
-          <a href="/">Toys</a>
+          <NavLink
+              to={Home}
+              >            
+              Toys
+          </NavLink> 
         </li>
         <li>
-          <a href="/">Others</a>
+          <NavLink
+              to={Home}
+              >            
+              Others
+          </NavLink>            
         </li>
       </ul>
     </div>

@@ -16,7 +16,11 @@ const SendEmail = () => {
 				<button className="primary-button login-button">Login</button>
 				<p className="resend">
 					<span>Didn't receive the email?</span>
-					<a href="/">Resend</a>
+					<NavLink
+            to={Home}
+            >            
+            Resend
+          </NavLink>					
 				</p>
 			</div>
 		</div>

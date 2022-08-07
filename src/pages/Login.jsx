@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { NavLink } from 'react-router-dom';
 
 import '@styles/Login.scss';
 import logo from '@logos/logo_yard_sale.svg'
@@ -30,7 +31,11 @@ const Login = () => {
 						className="primary-button login-button">
 						Log in 
 					</button>
-					<a href="/">Forgot my password</a>
+					<NavLink
+            to={Home}
+            >            
+            Forgot my password
+          </NavLink>					
 				</form>
 				<button className="secondary-button signup-button" >
 					Sign up
