@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import Menu from '@components/Menu'
+import Menu from './Menu'
 import AppContext from '../context/AppContext'
 import MyOrder from '../containers/MyOrder'
 import '@styles/Header.scss'
@@ -14,11 +14,6 @@ const Header = () => {
   const [ toggle, setToggle ] = useState(false);
   const [ toggleOrders, setToggleOrders ] = useState(false);
   const { state } = useContext(AppContext);
-
-  const handleToggle = (e) => {
-    e.preventDefault();
-    setToggle(!toggle);
-  }
 
   return (
     <nav>
@@ -77,7 +72,7 @@ const Header = () => {
       <ul>
         <li 
           className="navbar-email" 
-          onClick={ handleToggle }>
+          onClick={ () => setToggle(!toggle) }>
             jose.alberto.zavala.flores@gmail.com
         </li>
         <li 

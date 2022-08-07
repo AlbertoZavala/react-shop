@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/Menu.scss';
+import MyOrder from '../containers/MyOrder';
+// import MyAccount from '../pages/MyAccount';
 import Home from '../pages/Home';
 
 const Menu = () => {
@@ -8,18 +10,18 @@ const Menu = () => {
 		<div className="Menu">
 			<ul>
 				<li>
-					<NavLink
+				<NavLink
 							to={Home}
 							>            
-							My orders
+							My Orders
 					</NavLink>					
 				</li>
 				<li>
-					<NavLink
+				<NavLink
 							to={Home}
 							>            
-							My account
-					</NavLink>					
+							My Account
+					</NavLink>		
 				</li>
 				<li>
 					<NavLink
