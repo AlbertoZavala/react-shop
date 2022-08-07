@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/AlbertoZavala/react-shop/issues"
   },
-  "homepage": "https://AlbertoZavala/react-shop",
+  "homepage": "https://AlbertoZavala.github.io/react-shop/",
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.15.8",
     "axios": "^0.23.0",
