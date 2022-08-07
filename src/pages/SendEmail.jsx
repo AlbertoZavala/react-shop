@@ -2,6 +2,7 @@ import React from 'react';
 import '@styles/SendEmail.scss';
 import logo from '@logos/logo_yard_sale.svg';
 import email from '@icons/email.svg';
+import Home from './Home';
 
 const SendEmail = () => {
 	return (

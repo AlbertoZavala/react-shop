@@ -15,7 +15,8 @@ const Header = () => {
   const [ toggleOrders, setToggleOrders ] = useState(false);
   const { state } = useContext(AppContext);
 
-  const handleToggle = () => {
+  const handleToggle = (e) => {
+    e.preventDefault();
     setToggle(!toggle);
   }
 

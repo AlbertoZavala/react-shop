@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { NavLink } from 'react-router-dom';
+import Home from './Home';
 
 import '@styles/Login.scss';
 import logo from '@logos/logo_yard_sale.svg'
